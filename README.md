@@ -4,13 +4,13 @@
 
 This project is a responsive Personal Portfolio Website developed using HTML5 and CSS3.
 
-The website showcases my profile, technical skills, internship experience, featured projects, and contact information in a clean and professional format.
+The website showcases my profile, technical skills, internship experience, featured projects, and contact information in a professional and responsive format.
 
-The project was created as part of:
+This project was developed as part of:
 
 * Hex Softwares Internship — Week 1 Project 1
 * CodeAlpha Frontend Development Internship — Portfolio Website Task
-* Decode Labs Frontend Development Internship — Portfolio Project
+* Decode Labs Frontend Development Internship — Portfolio Website Project
 
 ---
 
@@ -28,15 +28,31 @@ Email: [fazalabbas2002@gmail.com](mailto:fazalabbas2002@gmail.com)
 
 ---
 
+## Live Demo
+
+GitHub Pages:
+
+https://fazal305.github.io/HexSoftwares_Personal_Portfolio/
+
+---
+
+## Repository
+
+GitHub Repository:
+
+https://github.com/fazal305/HexSoftwares_Personal_Portfolio
+
+---
+
 ## Features
 
 * Semantic HTML5 structure
 * Responsive mobile-first design
 * CSS Grid layout
-* Flexbox components
+* Flexbox-based components
 * Smooth scrolling navigation
 * Hover effects
-* Dark cyberpunk-inspired UI
+* Dark cyberpunk-inspired user interface
 * Professional profile section
 * Technical and soft skills section
 * Internship experience section
@@ -63,6 +79,7 @@ HexSoftwares_Personal_Portfolio
 ├── index.html
 ├── README.md
 ├── LICENSE
+├── .gitignore
 │
 └── assets
     ├── css
@@ -110,7 +127,7 @@ HexSoftwares_Personal_Portfolio
 * Karachi Transit Tracker
 * Personal Portfolio Website
 
-### Contact
+### Contact Information
 
 * Email
 * GitHub
@@ -129,16 +146,32 @@ The portfolio is designed to work across:
 
 ---
 
+## Learning Outcomes
+
+Through this project I practiced:
+
+* Semantic HTML structure
+* Responsive web design
+* CSS Grid layouts
+* Flexbox alignment techniques
+* Accessibility best practices
+* Professional portfolio development
+* Git and GitHub workflow
+
+---
+
 ## Future Improvements
 
 * Project screenshots
-* Downloadable resume
-* Project filtering
-* Dark/light theme switcher
-* Additional project showcases
+* Resume download section
+* Additional featured projects
+* Contact form integration
+* Theme customization options
 
 ---
 
 ## License
 
 This project is licensed under the MIT License.
+
+See the LICENSE file for details.
