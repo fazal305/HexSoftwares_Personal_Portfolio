@@ -3,15 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Fazal Abbas | Frontend Developer Portfolio</title>
-
+    <meta
+      name="description"
+      content="Personal portfolio of Fazal Abbas, a software engineering student and frontend developer building responsive websites, JavaScript apps, and Firebase projects."
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <nav aria-label="Main navigation">
+    <header class="hero" id="home">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="brand" href="#home">Fazal Abbas</a>
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -21,92 +23,85 @@
         </ul>
       </nav>
 
-      <div>
-        <img
-          src="assets/images/profile-photo.jpg"
-          alt="Fazal Abbas professional headshot"
-          width="300"
-          height="300"
-        />
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            Software Engineering Student / Frontend Developer
+          </p>
+          <h1>Fazal Abbas</h1>
+          <p class="hero-lead">
+            I build responsive web interfaces, JavaScript projects, Firebase
+            apps, dashboards, and practical software projects while learning
+            through real work.
+          </p>
 
-        <h1>Fazal Abbas</h1>
-
-        <p>Software Engineering Student | Frontend Developer</p>
-
-        <p>
-          Building responsive web applications using HTML, CSS, JavaScript,
-          Bootstrap, jQuery, React, and Firebase.
-        </p>
-
-        <div class="hero-buttons">
-          <a
-            class="hero-button"
-            href="https://github.com/fazal305"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View GitHub
-          </a>
-
-          <a
-            class="hero-button"
-            href="https://www.linkedin.com/in/fazal-abbas-4653dg86"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View LinkedIn
-          </a>
-
-          <a class="hero-button" href="mailto:fazalabbas2002@gmail.com">
-            Contact Me
-          </a>
+          <div class="hero-buttons">
+            <a class="hero-button primary" href="#projects">View Projects</a>
+            <a class="hero-button" href="mailto:fazalabbas2002@gmail.com"
+              >Contact Me</a
+            >
+            <a
+              class="hero-button"
+              href="https://github.com/fazal305"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
         </div>
+
+        <figure class="profile-card">
+          <img
+            src="assets/images/profile-photo.jpg"
+            alt="Fazal Abbas profile photo"
+            width="300"
+            height="300"
+          />
+          <figcaption>
+            Open to internships, junior frontend work, and learning-focused
+            collaborations.
+          </figcaption>
+        </figure>
       </div>
     </header>
 
     <main>
-      <!-- About Section -->
-      <section id="about">
-        <h2>About Me</h2>
-
+      <section id="about" class="panel wide-panel">
+        <p class="eyebrow">About</p>
+        <h2>Learning by building real projects.</h2>
         <p>
           I am a Software Engineering student from Karachi, Pakistan with a
-          strong interest in frontend development, responsive web design, and
-          interactive user experiences.
+          focus on frontend development, responsive design, and interactive
+          browser apps. My portfolio includes dashboards, tools, visualizers,
+          Firebase projects, and UI experiments built with practical learning in
+          mind.
         </p>
-
         <p>
-          I build practical projects using HTML, CSS, JavaScript, Bootstrap,
-          jQuery and Firebase. My portfolio includes browser-based
-          operating systems, algorithm visualizers, civic-tech applications,
-          dashboards, and modern web interfaces. I enjoy learning by building
-          real-world projects and continuously improving my development skills
-          through internships and hands-on experience.
+          I enjoy turning small concepts into complete projects: clear
+          structure, clean styling, useful interactions, and documentation that
+          makes each repository easier to understand.
         </p>
       </section>
 
-      <!-- Skills Section -->
-      <section id="skills">
-        <h2>Skills</h2>
-
-        <h3>Technical Skills</h3>
-
-        <ul>
+      <section id="skills" class="panel">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical Skills</h2>
+        <ul class="tag-list">
           <li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript</li>
-          <li>Bootstrap 5</li>
-          <li>jQuery</li>
           <li>Firebase</li>
-          <li>React</li>
+          <li>Bootstrap</li>
+          <li>jQuery</li>
+          <li>React Basics</li>
           <li>Git</li>
           <li>GitHub</li>
           <li>Responsive Design</li>
         </ul>
 
         <h3>Soft Skills</h3>
-
-        <ul>
+        <ul class="tag-list muted-tags">
           <li>Problem Solving</li>
           <li>Communication</li>
           <li>Time Management</li>
@@ -116,120 +111,123 @@
         </ul>
       </section>
 
-      <!-- Internships Section -->
-      <section id="internships">
-        <h2>Internships</h2>
-
-        <article>
-          <h3>Hex Softwares</h3>
-          <p>Frontend Development Intern</p>
-        </article>
-
-        <article>
-          <h3>CodeAlpha</h3>
-          <p>Frontend Development Intern</p>
-        </article>
-
-        <article>
-          <h3>Decode Labs</h3>
-          <p>Frontend Development Intern</p>
-        </article>
-
-        <article>
-          <h3>NexSoft Solutions</h3>
-          <p>Software Development Intern</p>
-        </article>
-
-        <article>
-          <h3>Arch Technologies</h3>
-          <p>Frontend Development Intern</p>
-        </article>
-
-        <article>
-          <h3>DevelopersHub Corporation</h3>
-          <p>Frontend Development Intern</p>
-        </article>
+      <section id="internships" class="panel wide-panel">
+        <p class="eyebrow">Experience</p>
+        <h2>Internship Practice</h2>
+        <div class="card-grid">
+          <article>
+            <h3>Hex Softwares</h3>
+            <p>Frontend Development Intern</p>
+          </article>
+          <article>
+            <h3>CodeAlpha</h3>
+            <p>Frontend Development Intern</p>
+          </article>
+          <article>
+            <h3>Decode Labs</h3>
+            <p>Frontend Development Intern</p>
+          </article>
+          <article>
+            <h3>NexSoft Solutions</h3>
+            <p>Software Development Intern</p>
+          </article>
+          <article>
+            <h3>Arch Technologies</h3>
+            <p>Frontend Development Intern</p>
+          </article>
+          <article>
+            <h3>DevelopersHub Corporation</h3>
+            <p>Frontend Development Intern</p>
+          </article>
+        </div>
       </section>
 
-      <!-- Projects Section -->
-      <section id="projects">
-        <h2>Featured Projects</h2>
-
-        <article>
-          <h3>NIGHTCITY Operating System</h3>
-
-          <p>
-            Browser-based operating system with windows, applications, widgets,
-            local storage, themes, and desktop interactions.
-          </p>
-        </article>
-
-        <article>
-          <h3>Visual Algorithm Studio</h3>
-
-          <p>
-            Interactive algorithm visualizer featuring sorting, stacks, queues,
-            linked lists, trees, and pathfinding.
-          </p>
-        </article>
-
-        <article>
-          <h3>Karachi Transit Tracker</h3>
-
-          <p>
-            Civic-tech platform using maps, route planning, weather integration,
-            and transit simulation.
-          </p>
-        </article>
-
-        <article>
-          <h3>Personal Portfolio Website</h3>
-
-          <p>
-            Responsive portfolio developed using semantic HTML, CSS Grid,
-            Flexbox, accessibility principles, and modern UI design.
-          </p>
-        </article>
+      <section id="projects" class="panel wide-panel">
+        <p class="eyebrow">Featured Work</p>
+        <h2>Projects</h2>
+        <div class="card-grid project-grid">
+          <article>
+            <span>Browser OS</span>
+            <h3>NIGHTCITY OS</h3>
+            <p>
+              Cyberpunk desktop simulator with draggable windows, apps, themes,
+              localStorage, and canvas visuals.
+            </p>
+            <a
+              href="https://github.com/fazal305/nightcity-os"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Repository</a
+            >
+          </article>
+          <article>
+            <span>Algorithms</span>
+            <h3>Visual Algorithm Studio</h3>
+            <p>
+              Interactive visualizer for sorting, stacks, queues, linked lists,
+              trees, and pathfinding concepts.
+            </p>
+            <a
+              href="https://github.com/fazal305/visual-algorithm-studio"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Repository</a
+            >
+          </article>
+          <article>
+            <span>Civic Tech</span>
+            <h3>Karachi Transit Tracker</h3>
+            <p>
+              Transit dashboard concept with route planning, station data,
+              simulated vehicles, and weather context.
+            </p>
+            <a
+              href="https://github.com/fazal305/karachi-transit-tracker"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Repository</a
+            >
+          </article>
+          <article>
+            <span>Portfolio</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              Responsive portfolio using semantic HTML, CSS Grid, Flexbox,
+              accessibility basics, and modern styling.
+            </p>
+            <a
+              href="https://github.com/fazal305/HexSoftwares_Personal_Portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View Repository</a
+            >
+          </article>
+        </div>
       </section>
 
-      <!-- Contact Section -->
-      <section id="contact">
-        <h2>Contact Information</h2>
-
-        <p>
-          Email:
-          <a href="mailto:fazalabbas2002@gmail.com">
-            fazalabbas2002@gmail.com
-          </a>
-        </p>
-
-        <p>
-          GitHub:
+      <section id="contact" class="panel wide-panel contact-panel">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build something real.</h2>
+        <div class="contact-links">
+          <a href="mailto:fazalabbas2002@gmail.com">fazalabbas2002@gmail.com</a>
           <a
             href="https://github.com/fazal305"
             target="_blank"
             rel="noopener noreferrer"
+            >github.com/fazal305</a
           >
-            github.com/fazal305
-          </a>
-        </p>
-
-        <p>
-          LinkedIn:
           <a
             href="https://www.linkedin.com/in/fazal-abbas-4653dg86"
             target="_blank"
             rel="noopener noreferrer"
+            >LinkedIn Profile</a
           >
-            linkedin.com/in/fazal-abbas-4653dg86
-          </a>
-        </p>
+        </div>
       </section>
     </main>
 
-    <!-- Footer -->
     <footer>
-      <p>© 2026 Fazal Abbas. All Rights Reserved.</p>
+      <p>Copyright 2026 Fazal Abbas. All rights reserved.</p>
     </footer>
   </body>
 </html>

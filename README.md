@@ -1,177 +1,85 @@
-# Personal Portfolio Website
+# HexSoftwares Personal Portfolio
 
-## Overview
-
-This project is a responsive Personal Portfolio Website developed using HTML5 and CSS3.
-
-The website showcases my profile, technical skills, internship experience, featured projects, and contact information in a professional and responsive format.
-
-This project was developed as part of:
-
-* Hex Softwares Internship — Week 1 Project 1
-* CodeAlpha Frontend Development Internship — Portfolio Website Task
-* Decode Labs Frontend Development Internship — Portfolio Website Project
-
----
-
-## Developer
-
-**Fazal Abbas**
-
-Frontend-Focused Software Engineering Student
-
-GitHub: https://github.com/fazal305
-
-LinkedIn: https://www.linkedin.com/in/fazal-abbas-4653dg86
-
-Email: [fazalabbas2002@gmail.com](mailto:fazalabbas2002@gmail.com)
-
----
+A responsive personal portfolio website for Fazal Abbas, built with semantic HTML and CSS.
 
 ## Live Demo
 
-GitHub Pages:
-
 https://fazal305.github.io/HexSoftwares_Personal_Portfolio/
 
----
+## Project Overview
 
-## Repository
+This portfolio presents my profile, skills, internships, featured projects, and contact links in a clean single-page layout. It was created as an internship portfolio task and polished as a professional front-end showcase.
 
-GitHub Repository:
+The site is intentionally lightweight: no framework, no build step, and no JavaScript requirement. It focuses on semantic structure, responsive layout, accessible navigation, and strong portfolio presentation.
 
-https://github.com/fazal305/HexSoftwares_Personal_Portfolio
+## Internship Context
 
----
+This project supports portfolio tasks from:
+
+- Hex Softwares Internship
+- CodeAlpha Frontend Development Internship
+- Decode Labs Frontend Development Internship
 
 ## Features
 
-* Semantic HTML5 structure
-* Responsive mobile-first design
-* CSS Grid layout
-* Flexbox-based components
-* Smooth scrolling navigation
-* Hover effects
-* Dark cyberpunk-inspired user interface
-* Professional profile section
-* Technical and soft skills section
-* Internship experience section
-* Featured projects section
-* Contact information section
-* Accessibility-friendly structure
+- Responsive single-page portfolio
+- Semantic HTML5 structure
+- Profile image hero section
+- About section
+- Technical and soft skills
+- Internship experience cards
+- Featured project cards
+- Contact links for email, GitHub, and LinkedIn
+- CSS Grid and Flexbox layout
+- Dark cyberpunk-inspired visual style
+- Mobile-friendly navigation
 
----
+## Built With
 
-## Technologies Used
-
-* HTML5
-* CSS3
-* CSS Grid
-* Flexbox
-
----
+- HTML5
+- CSS3
+- CSS Grid
+- Flexbox
 
 ## Project Structure
 
 ```text
-HexSoftwares_Personal_Portfolio
-│
-├── index.html
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-└── assets
-    ├── css
-    │   └── style.css
-    │
-    └── images
-        └── profile-photo.jpg
+HexSoftwares_Personal_Portfolio/
+|-- index.html
+|-- README.md
+|-- LICENSE
+|-- .gitignore
+|-- assets/
+|   |-- css/
+|   |   |-- style.css
+|   |-- images/
+|       |-- profile-photo.jpg
 ```
 
----
+## Sections
 
-## Sections Included
+- Hero
+- About
+- Skills
+- Internships
+- Featured Projects
+- Contact
 
-### Header
+## Featured Projects
 
-* Professional headshot
-* Name and title
-* GitHub profile link
-* LinkedIn profile link
+- NIGHTCITY OS
+- Visual Algorithm Studio
+- Karachi Transit Tracker
+- Personal Portfolio Website
 
-### About Me
+## Author
 
-* Professional summary
-* Learning background
-* Career focus
+Fazal Abbas
 
-### Skills
-
-* Technical skills
-* Soft skills
-
-### Internships
-
-* Hex Softwares
-* CodeAlpha
-* Decode Labs
-* NexSoft Solutions
-* Arch Technologies
-* DevelopersHub Corporation
-
-### Featured Projects
-
-* NIGHTCITY Operating System
-* Visual Algorithm Studio
-* Karachi Transit Tracker
-* Personal Portfolio Website
-
-### Contact Information
-
-* Email
-* GitHub
-* LinkedIn
-
----
-
-## Responsive Design
-
-The portfolio is designed to work across:
-
-* Mobile Phones
-* Tablets
-* Laptops
-* Desktop Computers
-
----
-
-## Learning Outcomes
-
-Through this project I practiced:
-
-* Semantic HTML structure
-* Responsive web design
-* CSS Grid layouts
-* Flexbox alignment techniques
-* Accessibility best practices
-* Professional portfolio development
-* Git and GitHub workflow
-
----
-
-## Future Improvements
-
-* Project screenshots
-* Resume download section
-* Additional featured projects
-* Contact form integration
-* Theme customization options
-
----
+- GitHub: https://github.com/fazal305
+- LinkedIn: https://www.linkedin.com/in/fazal-abbas-4653dg86
+- Email: fazalabbas2002@gmail.com
 
 ## License
 
 This project is licensed under the MIT License.
-
-See the LICENSE file for details.
